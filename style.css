@@ -1,16 +1,33 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
-header {
+#sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
     background: #2c3e50;
     color: white;
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
 }
 
-#map {
-    width: 100vw;
-    height: calc(100vh - 70px);
+#sidebar a {
+    color: white;
+    display: block;
+    margin: 15px 0;
+}
+
+#menuBtn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: black;
+    z-index: 1000;
 }

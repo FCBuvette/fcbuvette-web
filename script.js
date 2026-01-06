@@ -16,14 +16,7 @@ fetch("data.json")
     .then(response => response.json())
     .then(buvettes => {
         buvettes.forEach(b => {
-            const marker = L.marker([b.lat, b.lng]).addTo(map);
-
-            const popup = `
-                <h3>${b.name}</h3>
-                <img src="${b.image}" width="200" style="border-radius:8px;">
-                <p>${b.description}</p>
-            `;
-
-            marker.bindPopup(popup);
+            L.marker([b.lat, b.lng]).addTo(map)
+                .bindPopup(`<h3>${b.name}</h3>`);
         });
     });

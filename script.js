@@ -22,3 +22,19 @@ fetch("data.json")
             marker.bindPopup(popupContent);
         });
     });
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(pos => {
+        const userLat = pos.coords.latitude;
+        const userLng = pos.coords.longitude;
+
+        L.marker([userLat, userLng], {
+            icon: L.icon({
+                iconUrl: "https://cdn-icons-png.flaticon.com/512/64/64113.png",
+                iconSize: [32, 32]
+            })
+        }).addTo(map).bindPopup("Vous êtes ici");
+
+        map.setView([userLat, userLng], 14);
+    });
+}

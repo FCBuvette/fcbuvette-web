@@ -1,52 +1,52 @@
 [
   {
     "name": "A.S.4.V.F",
-    "latitude": 46.43309
-    "longitude": 0.84852
+    "lat": 46.43309
+    "lng": 0.84852
   },
   {
     "name": "USAV",
-    "latitude": 46.46789
-    "longitude": 0.66722
+    "lat": 46.46789
+    "lng": 0.66722
   },
   {
     "name": "ASD",
-    "latitude": 46.31963
-    "longitude": 0.74036
+    "lat": 46.31963
+    "lng": 0.74036
   },
   {
     "name": "FC2 Sud vendée",
-    "latitude": 46.32642
-    "longitude": 0.94345
+    "lat": 46.32642
+    "lng": 0.94345
   },
   {
     "name": "FCY Vendée",
-    "latitude": 46.47076
-    "longitude": 1.44130
+    "lat": 46.47076
+    "lng": 1.44130
   },
   {
     "name": "Casques à cornes",
-    "latitude": 45.38202
-    "longitude": 2.27084
+    "lat": 45.38202
+    "lng": 2.27084
   },
   {
     "name": "L'âge d'or",
-    "latitude": 46.37084
-    "longitude": 0.73836
+    "lat": 46.37084
+    "lng": 0.73836
   },
   {
     "name": "GP Explorer 3",
-    "latitude": 47.95334
-    "longitude": 0.20945
+    "lat": 47.95334
+    "lng": 0.20945
   },
   {
     "name": "SVF",
-    "latitude": 46.36994
-    "longitude": 0.25397
+    "lat": 46.36994
+    "lng": 0.25397
   },
   {
     "name": "La Beaujoire",
-    "latitude": 47.25509
-    "longitude": 1.52520
+    "lat": 47.25509
+    "lng": 1.52520
   }
 ]

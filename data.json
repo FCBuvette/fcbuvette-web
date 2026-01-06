@@ -1,52 +1,52 @@
 [
-  {
-    "name": "A.S.4.V.F",
-    "lat": 46.43309,
-    "lng": 0.84852
-  },
-  {
-    "name": "USAV",
-    "lat": 46.46789,
-    "lng": 0.66722
-  },
-  {
-    "name": "ASD",
-    "lat": 46.31963,
-    "lng": 0.74036
-  },
-  {
-    "name": "FC2 Sud vendée",
-    "lat": 46.32642,
-    "lng": 0.94345
-  },
-  {
-    "name": "FCY Vendée",
-    "lat": 46.47076,
-    "lng": 1.44130
-  },
-  {
-    "name": "Casques à cornes",
-    "lat": 45.38202,
-    "lng": 2.27084
-  },
-  {
-    "name": "L'âge d'or",
-    "lat": 46.37084,
-    "lng": 0.73836
-  },
-  {
-    "name": "GP Explorer 3",
-    "lat": 47.95334,
-    "lng": 0.20945
-  },
-  {
-    "name": "SVF",
-    "lat": 46.36994,
-    "lng": 0.25397
-  },
-  {
-    "name": "La Beaujoire",
-    "lat": 47.25509,
-    "lng": 1.52520
-  }
+    {
+        "name": "A.S.4.V.F",
+        "lat": 46.43309,
+        "lng": 0.84852
+    },
+    {
+        "name": "USAV",
+        "lat": 46.46789,
+        "lng": 0.66722
+    },
+    {
+        "name": "ASD",
+        "lat": 46.31963,
+        "lng": 0.74036
+    },
+    {
+        "name": "FC2 Sud vendée",
+        "lat": 46.32642,
+        "lng": 0.94345
+    },
+    {
+        "name": "FCY Vendée",
+        "lat": 46.47076,
+        "lng": 1.4413
+    },
+    {
+        "name": "Casques à cornes",
+        "lat": 45.38202,
+        "lng": 2.27084
+    },
+    {
+        "name": "L'âge d'or",
+        "lat": 46.37084,
+        "lng": 0.73836
+    },
+    {
+        "name": "GP Explorer 3",
+        "lat": 47.95334,
+        "lng": 0.20945
+    },
+    {
+        "name": "SVF",
+        "lat": 46.36994,
+        "lng": 0.25397
+    },
+    {
+        "name": "La Beaujoire",
+        "lat": 47.25509,
+        "lng": 1.5252
+    }
 ]

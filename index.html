@@ -2,22 +2,32 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Test Menu</title>
+    <title>Carte des Buvettes</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
 
+    <!-- Bouton menu -->
     <button id="menuBtn">☰</button>
 
+    <!-- Menu latéral -->
     <div id="sidebar">
         <h2>Menu</h2>
-        <a href="#">Accueil</a>
-        <a href="#">Carte</a>
-        <a href="#">Préférences</a>
+        <a href="index.html">Accueil</a>
+        <a href="#map">Map</a>
     </div>
 
-    <div id="map">Contenu ici</div>
+    <!-- Carte -->
+    <div id="map"></div>
 
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Ton script -->
     <script src="script.js"></script>
+
 </body>
 </html>
